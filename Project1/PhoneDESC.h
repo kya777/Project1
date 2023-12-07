@@ -60,6 +60,7 @@ public:
 	class CBettery* GetBettery() const  { return Bettery; }
 	class CCamera** GetCameras() const  { return Cameras; }
 
+	// 해당 헤더 안에 각 타입에 대한 템플릿 특수화.
 	template<typename T>
 	std::string ChangeType(T type);
 

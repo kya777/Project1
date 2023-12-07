@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="DESC">
+      <UniqueIdentifier>{63c9962f-80cd-4ec9-bbe8-2e4f98b4e7d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HardWare">
+      <UniqueIdentifier>{8c32b627-289a-4e61-b6e1-e4aeac680aea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{a0dab81f-8dc6-4ea5-9947-99890f7af539}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PhoneDESC.h">
+      <Filter>DESC</Filter>
+    </ClInclude>
+    <ClInclude Include="CBettery.h">
+      <Filter>HardWare</Filter>
+    </ClInclude>
+    <ClInclude Include="CCamera.h">
+      <Filter>HardWare</Filter>
+    </ClInclude>
+    <ClInclude Include="CCPU.h">
+      <Filter>HardWare</Filter>
+    </ClInclude>
+    <ClInclude Include="CGPU.h">
+      <Filter>HardWare</Filter>
+    </ClInclude>
+    <ClInclude Include="CFactory.h" />
+    <ClInclude Include="CPhone.h" />
+    <ClInclude Include="ChangeTypeInterface.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PhoneDESC.cpp">
+      <Filter>DESC</Filter>
+    </ClCompile>
+    <ClCompile Include="CCamera.cpp">
+      <Filter>HardWare</Filter>
+    </ClCompile>
+    <ClCompile Include="CCPU.cpp">
+      <Filter>HardWare</Filter>
+    </ClCompile>
+    <ClCompile Include="CGPU.cpp">
+      <Filter>HardWare</Filter>
+    </ClCompile>
+    <ClCompile Include="CBettery.cpp">
+      <Filter>HardWare</Filter>
+    </ClCompile>
+    <ClCompile Include="CFactory.cpp" />
+    <ClCompile Include="CPhone.cpp" />
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+</Project>
